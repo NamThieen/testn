@@ -1,0 +1,161 @@
+// src/gui.slint
+import { Button, GroupBox, Label, RadioButton, VerticalBox, HorizontalBox, ListView } from "slint";
+
+export struct StatementData {
+    text: string,
+    correct: bool,
+    user_answer: string
+}
+
+export enum Answer {
+    MultipleChoice,
+    TrueFalse
+}
+
+export component AppWindow inherits Window {
+    title: "Quiz Application";
+    height: 600px;
+    width: 800px;
+
+    // Declare input properties for the model data that will be provided from Rust.
+    // These will directly bind to the 'model' property of the ListViews.
+    // The type for StringModel is `[string]`.
+    in property <[string]> mcq_options_model_data;
+    // The type for VecModel of StatementData is `[StatementData]`.
+    in property <[StatementData]> tf_statements_model_data;
+
+    VerticalBox {
+        alignment: start;
+        // Question Display Area
+        GroupBox {
+            title: "Question";
+            width: 780px;
+            height: 200px;
+            Label {
+                id: question_text;
+                wrap: word;
+                font-size: 20px;
+                width: 760px;
+                height: 180px;
+            }
+        }
+
+        // Options/Statements Display Area
+        GroupBox {
+            title: "Options / Statements";
+            width: 780px;
+            height: 300px;
+            property <string> question_type : "MultipleChoices";
+             // Multiple Choice Options
+            ListView {
+                visible: question_type == "MultipleChoices";
+                id: mcq_options_list;
+                // Assign the input property as the model.
+                // The data for this model will be set from Rust via `ui.set_mcq_options_model_data(...)`.
+                model: mcq_options_model_data;
+
+                delegate {
+                     RadioButton {
+                        text: modelData; // modelData will be a string
+                        checked: @index == selected_mcq_option;
+                        on checked-changed(checked) => {
+                            if (checked) {
+                                selected_mcq_option = @index;
+                            }
+                        }
+                    }
+                }
+                property <int> selected_mcq_option : -1;
+                height: 300px;
+            }
+
+            // True/False Statements
+            ListView {
+                visible: question_type == "TrueFalse";
+                id: tf_statements_list;
+                // Assign the input property as the model.
+                // The data for this model will be set from Rust via `ui.set_tf_statements_model_data(...)`.
+                model: tf_statements_model_data;
+
+                delegate {
+                    VerticalBox{
+                        Label {
+                            text: modelData.text; // modelData will be a StatementData struct
+                            width: 700px;
+                            wrap: word;
+                        }
+                        HorizontalBox {
+                            RadioButton {
+                                text: "T";
+                                checked: modelData.user_answer == "T";
+                                on checked-changed(checked) => {
+                                    if (checked) {
+                                        // To update the model, we need to update the original data.
+                                        // This is tricky. Slint models are often immutable directly in delegates.
+                                        // You might need to emit a signal back to Rust to update the data.
+                                        // For now, let's assume direct modification is okay, but keep this in mind.
+                                        modelData.user_answer = "T";
+                                        // `statementsModel.set_model` is not needed here, as `modelData` is part of the bound model.
+                                        // The UI will react if `modelData` itself is a reactive property,
+                                        // but for lists, you usually update the underlying Vec in Rust and call `set_model_data` again.
+                                    }
+                                }
+                            }
+                            RadioButton {
+                                text: "F";
+                                checked: modelData.user_answer == "F";
+                                on checked-changed(checked) => {
+                                    if (checked) {
+                                         modelData.user_answer = "F";
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                height: 300px;
+            }
+        }
+
+        // Control Buttons
+        HorizontalBox {
+            alignment: end;
+            Button {
+                text: "Check Answer";
+                on clicked() => {
+                    // This part of the logic will now need to access the *bound model data*
+                    // to get the user's answers. The `model` property of ListView has
+                    // getters to access its current state.
+                    // This would be better handled by emitting a signal with the current state
+                    // back to Rust.
+                    let mut answers = [];
+                    if (question_type == "MultipleChoices") {
+                        if (mcq_options_list.selected_mcq_option >= 0) {
+                            // Access the item from the model
+                            answers.push(Answer::MultipleChoice(mcq_options_list.selected_mcq_option));
+                        }
+                    } else if (question_type == "TrueFalse") {
+                        // To get the user_answer for TF, you'd typically iterate the model.
+                        // This part of the code in Slint might need to be adapted.
+                        // You can usually iterate a ListView's model property.
+                        for (let i = 0; i < tf_statements_list.model.length; i++) {
+                            let statement = tf_statements_list.model[i]; // Accessing item by index
+                            if (statement.user_answer == "T" || statement.user_answer == "F") {
+                                answers.push(Answer::TrueFalse(statement.user_answer));
+                            }
+                        }
+                    }
+                    // This `check_answer` must be an `out callback` property on AppWindow
+                    check_answer(answers);
+                }
+            }
+            Button {
+                text: "Next Question";
+                on clicked() => {
+                    // This `next_question` must be an `out callback` property on AppWindow
+                    next_question();
+                }
+            }
+        }
+    }
+}

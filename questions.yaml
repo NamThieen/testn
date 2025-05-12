@@ -1,0 +1,28 @@
+- MultipleChoices:
+    question_text: What is the largest planet in our solar system?
+    options:
+      - Mars
+      - Jupiter
+      - Saturn
+      - Earth
+    correct_answer_index: 1
+- MultipleChoices:
+    question_text: Which famous scientist developed the theory of relativity? $E=mc^2$
+    options:
+      - Isaac Newton
+      - Galileo Galilei
+      - Albert Einstein
+      - Stephen Hawking
+    correct_answer_index: 2
+- TrueFalse:
+    question_text: A standard deck of 52 playing cards has 4 suits (hearts,
+      diamonds, clubs, spades) with 13 cards each.
+    statements:
+      - text: There are exactly 12 face cards (Jack, Queen, King) in the deck.
+        correct: true
+      - text: There are more red cards than black cards.
+        correct: false
+      - text: If you draw one card, the probability of drawing an Ace is 1/13.
+        correct: true
+      - text: All spades are black cards.
+        correct: true
