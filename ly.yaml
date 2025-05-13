@@ -1,0 +1,17 @@
+---
+- MultipleChoices:
+    question_text: dien tro co don vi do la gi?
+    options:
+      - om
+      - ampe
+      - fara
+      - von
+    correct_answer_index: 0
+- MultipleChoices:
+    question_text: "hai nam cham day nhau, chung co dong dien"
+    options:
+      - nguoc chieu
+      - cung chieu
+      - cung am
+      - cung duong
+    correct_answer_index: 0
