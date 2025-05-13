@@ -1,0 +1,9 @@
+---
+- MultipleChoices:
+    question_text: Nam nao dien ra chien thang dien bien phu?
+    options:
+      - "1945"
+      - "1948"
+      - "1954"
+      - "1960"
+    correct_answer_index: 2
