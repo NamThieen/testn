@@ -1,4 +1,5 @@
 use crate::questions::Question;
+use crate::shuffler::prepare_questions_for_quiz;
 use std::collections::HashMap;
 
 #[derive(PartialEq, Eq)]
@@ -66,7 +67,8 @@ impl App {
         }
     }
 
-    pub fn load_questions(&mut self, questions: Vec<Question>) {
+    pub fn load_questions(&mut self, mut questions: Vec<Question>) {
+        prepare_questions_for_quiz(&mut questions);
         self.questions = questions;
         self.current_question_index = 0; //reset
         self.user_answer_mc.clear(); // Clear any previous answers

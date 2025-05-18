@@ -1,7 +1,7 @@
 mod app;
 mod question_loader;
 mod questions;
-// mod shuffler;
+mod shuffler;
 mod test_bank;
 //mod test_creator;
 mod ui;
@@ -48,6 +48,7 @@ fn run_app<B: Backend>(
     app: &mut App,
 ) -> Result<(), Box<dyn std::error::Error>> {
     app.load_questions(get_sample_questions());
+
     app.current_screen = CurrentScreen::MainMenu;
     loop {
         terminal.draw(|f| ui(f, app))?;
@@ -119,6 +120,9 @@ fn run_app<B: Backend>(
                         }
                         KeyCode::Backspace => {
                             app.file_path_input.pop();
+                        }
+                        KeyCode::Char('s') => {
+                            app.current_screen = CurrentScreen::TakingQuiz;
                         }
                         KeyCode::Char(c) => {
                             app.file_path_input.push(c);

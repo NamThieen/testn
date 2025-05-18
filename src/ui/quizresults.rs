@@ -2,11 +2,11 @@ use ratatui::{
     Frame,
     layout::{Alignment, Constraint, Direction, Layout},
     style::{Color, Modifier, Style},
-    text::{Span, Text},
+    text::Text,
     widgets::{Block, BorderType, Borders, Paragraph, Wrap},
 };
 
-use crate::app::{self, App};
+use crate::app::App;
 
 pub fn draw_results(f: &mut Frame, app: &App) {
     let size = f.area();
@@ -33,7 +33,7 @@ pub fn draw_results(f: &mut Frame, app: &App) {
     ))
     .block(title_block)
     .alignment(Alignment::Center)
-    .wrap(ratatui::widgets::Wrap { trim: true });
+    .wrap(Wrap { trim: true });
     f.render_widget(title_text, chunks[0]);
 
     let final_score = if app.total_points_possible > 0.0 {
