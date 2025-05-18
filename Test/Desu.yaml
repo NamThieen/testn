@@ -1,0 +1,236 @@
+- MultipleChoices:
+    question_text: "Một trong những xu thế phát triển chính của thế giới sau Chiến tranh lạnh là"
+    options:
+      - "hình thành các liên minh quân sự xuyên lục địa."
+      - "Mỹ vươn lên thiết lập trật tự đơn cực."
+      - "tập trung nghiên cứu khoa học vũ trụ."
+      - "lấy phát triển kinh tế làm trung tâm."
+    correct_answer: 3
+- MultipleChoices:
+    question_text: "Nội dung nào sau đây phản ánh đúng bối cảnh lịch sử bùng nổ cuộc kháng chiến chống thực dân Pháp của nhân dân Việt Nam (1945-1954)?"
+    options:
+      - "Các nước xã hội chủ nghĩa thiết lập quan hệ ngoại giao với Việt Nam."
+      - "Mỹ thực hiện Kế hoạch Mác-san viện trợ cho Pháp."
+      - "Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập."
+      - "Chủ nghĩa xã hội trở thành hệ thống thế giới."
+    correct_answer: 1
+- MultipleChoices:
+    question_text: "Trong chiến tranh bảo vệ Tổ quốc trước cách mạng tháng Tám năm 1945 ở Việt Nam, cuộc kháng chiến nào sau đây không thành công?"
+    options:
+      - "Kháng chiến chống quân Minh (1406-1407)."
+      - "Kháng chiến chống quân Tống (981)."
+      - "Kháng chiến chống quân Xiêm (1785)."
+      - "Kháng chiến chống quân Nam Hán (938)."
+    correct_answer: 0
+- MultipleChoices:
+    question_text: "Theo quyết định của Hội nghị I-an-ta (tháng 2-1945), khu vực nào sau đây thuộc phạm vi ảnh hưởng của Mỹ"
+    options:
+      - "Tây Âu."
+      - "Đông Béc-lin."
+      - "Đông Đức."
+      - "Đông Âu."
+    correct_answer: 0
+- MultipleChoices:
+    question_text: "Một trong những mục tiêu của Việt Nam khi mở chiến dịch Biên giới thu - đông năm 1950 là"
+    options:
+      - "chuyển cơ quan đầu não kháng chiến về chiến khu an toàn."
+      - "phá sản kế hoạch “đánh nhanh, thắng nhanh” của thực dân Pháp."
+      - "khai thông biên giới Việt - Trung, mở rộng căn cứ địa Việt Bắc."
+      - "giải phóng Tây Bắc, tạo điều kiện để giải phóng Bắc Lào."
+    correct_answer: 2
+- MultipleChoices:
+    question_text: "Năm 1995, quốc gia nào sau đây gia nhập Hiệp hội các quốc gia Đông Nam Á (ASEAN)?"
+    options:
+      - "Việt Nam."
+      - "Phi-lip-pin."
+      - "Ti-mo Lét-xtê."
+      - "In-đô-nê-xi-a."
+    correct_answer: 0
+- MultipleChoices:
+    question_text: "Sự kiện lịch sử thế giới nào sau đây có ảnh hưởng đến Cách mạng tháng Tám năm 1945 ở Việt Nam?"
+    options:
+      - "Quân Đồng minh chiến thắng phe phát xít."
+      - "Nước Cộng hòa Nhân dân Trung Hoa ra đời."
+      - "Liên Xô phóng thành công vệ tinh nhân tạo."
+      - "Nước Cộng hòa Ấn Độ được thành lập."
+    correct_answer: 0
+- MultipleChoices:
+    question_text: "Một trong những nguyên tắc hoạt động của tổ chức Liên hợp quốc là"
+    options:
+      - "bình đẳng về chủ quyền của tất cả các thành viên."
+      - "thúc đẩy quan hệ hữu nghị giữa các quốc gia."
+      - "đảm bảo quyền con người và quyền tự do cơ bản."
+      - "duy trì hòa bình, an ninh quốc tế."
+    correct_answer: 0
+- MultipleChoices:
+    question_text: "Năm 1949, nước nào sau đây ở châu Á lựa chọn con đường đi lên chủ nghĩa xã hội"
+    options:
+      - "Cộng hòa Nhân dân Trung Hoa."
+      - "Cu-Ba."
+      - "Cộng hòa Ai Cập."
+      - "Liên Xô."
+    correct_answer: 0
+- MultipleChoices:
+    question_text: "Một trong những nội dung chính của Kế hoạch tổng thể xây dựng Cộng đồng Văn hoá - Xã hội ASEAN là"
+    options:
+      - "bảo đảm bền vững môi trường."
+      - "bảo vệ người tiêu dùng."
+      - "phát triển cơ sở hạ tầng."
+      - "bảo vệ sở hữu trí tuệ."
+    correct_answer: 0
+- MultipleChoices:
+    question_text: "Nội dung nào sau đây phản ánh đúng bối cảnh lịch sử thành lập tổ chức Liên hợp quốc?"
+    options:
+      - "Các nước Đồng minh nhận thấy sự cần thiết phải hợp tác để tiêu diệt phát xít."
+      - "Chiến tranh thế giới thứ hai bùng nổ."
+      - "Trật tự hai cực, hai phe được xác lập ở châu Âu."
+      - "Mỹ phát động Chiến tranh lạnh chống Liên Xô và chủ nghĩa xã hội."
+    correct_answer: 0
+- MultipleChoices:
+    question_text: "Hội nghị toàn quốc của Đảng Cộng sản Đông Dương họp tại Tân Trào (từ ngày 14 đến ngày 15-8-1945) đã có quyết định nào sau đây?"
+    options:
+      - "Thông qua kế hoạch lãnh đạo toàn dân Tổng khởi nghĩa."
+      - "Cử ra Ủy ban dân tộc Giải phóng Việt Nam."
+      - "Thông qua 10 chính sách của Mặt trận Việt Minh."
+      - "Tán thành chủ trương Tổng khởi nghĩa."
+    correct_answer: 3
+- MultipleChoices:
+    question_text: "Sự kiện nào sau đây đã chấm dứt sự tồn tại của Trật tự thế giới hai cực I-an-ta?"
+    options:
+      - "Chế độ xã hội chủ nghĩa ở Liên Xô tan rã (1991)."
+      - "Liên Xô và Mỹ cùng tuyên bố chấm dứt Chiến tranh Lạnh (1989)."
+      - "Liên Xô và Mỹ kí Hiệp ước chống tên lửa đạn đạo (ABM)."
+      - "Tổng thống Mỹ R. Ních-xơn sang thăm Liên Xô (1972)."
+    correct_answer: 0
+- MultipleChoices:
+    question_text: "Nội dung nào sau đây không phải là nguyên nhân khách quan dẫn đến thắng lợi của cuộc kháng chiến chống thực dân Pháp (1945-1954)?"
+    options:
+      - "Tình đoàn kết chiến đấu của ba nước Đông Dương."
+      - "Truyền thống yêu nước, đoàn kết của nhân dân."
+      - "Sự giúp đỡ to lớn từ các nước xã hội chủ nghĩa."
+      - "Phong trào phản đối chiến tranh của nhân dân Pháp."
+    correct_answer: 1
+- MultipleChoices:
+    question_text: "Sự kiện nào sau đây đánh dấu chế độ phong kiến Việt Nam hoàn toàn sụp đổ?"
+    options:
+      - "Hiệp định Sơ bộ được kí kết."
+      - "Sài Gòn giành được chính quyền."
+      - "Hà Nội giành được chính quyền."
+      - "Vua Bảo Đại tuyên bố thoái vị."
+    correct_answer: 3
+- MultipleChoices:
+    question_text: "Thắng lợi nào sau đây đánh dấu bước phát triển mới của cuộc kháng chiến chống thực dân Pháp trong những năm 1945-1950?"
+    options:
+      - "Chiến thắng Điện Biên Phủ năm 1954."
+      - "Chiến thắng Biên giới thu - đông năm 1950."
+      - "Cuộc chiến đấu ở các đô thị phía bắc vĩ tuyến 16."
+      - "Chiến thắng Việt Bắc thu - đông năm 1947."
+    correct_answer: 1
+- MultipleChoices:
+    question_text: "Nội dung nào sau đây không phải là hoạt động của tổ chức ASEAN trong giai đoạn 1976-1999?"
+    options:
+      - "Giải quyết vấn đề chính trị, an ninh tại Cam-pu-chia."
+      - "Thiết lập quan hệ chính trị ổn định trong khu vực."
+      - "Ra Tuyên bố về khu vực hòa bình, tự do và trung lập."
+      - "ASEAN phát triển số lượng thành viên từ 5 lên 10 nước."
+    correct_answer: 1
+- MultipleChoices:
+    question_text: "Nội dung nào sau đây không phải là bài học kinh nghiệm của Cách mạng tháng Tám năm 1945 ở Việt Nam"
+    options:
+      - "Phát huy sức mạnh khối đoàn kết toàn dân."
+      - "Xác định thời cơ, tạo và chớp thời cơ."
+      - "Kết hợp đấu tranh chính trị với đấu tranh ngoại giao."
+      - "Kết hợp sức mạnh dân tộc với sức mạnh thời đại."
+    correct_answer: 2
+- MultipleChoices:
+    question_text: "Kế sách nào sau đây được sử dụng trong cuộc kháng chiến chống quân Tống (1075-1077)?"
+    options:
+      - "“Thanh dã”."
+      - "“Đánh điểm, diệt viện”."
+      - "“Đánh nhanh, thắng nhanh”."
+      - "“Tiên phát chế nhân”."
+    correct_answer: 3
+- MultipleChoices:
+    question_text: "Nội dung nào sau đây phản ánh không đúng ý nghĩa của sự ra đời Liên bang Cộng hòa xã hội chủ nghĩa Xô viết (1922) đối với thế giới?"
+    options:
+      - "Đánh dấu sự sụp đổ hoàn toàn của đế quốc Nga và Chính phủ tư sản lâm thời."
+      - "Tác động lớn đến chính trị và quan hệ quốc tế."
+      - "Cổ vũ các dân tộc bị áp bức đứng lên đấu tranh giải phóng dân tộc."
+      - "Chứng minh học thuyết Mác - Lê-nin là đúng đắn, khoa học."
+    correct_answer: 0
+- MultipleChoices:
+    question_text: "Nội dung nào sau đây phản ánh đúng điểm tương đồng giữa chiến dịch Việt Bắc thu - đông năm 1947 và chiến dịch Điện Biên Phủ năm 1954 của quân dân Việt Nam?"
+    options:
+      - "Làm phá sản chiến lược “đánh nhanh, thắng nhanh” của thực dân Pháp."
+      - "Kết hợp hoạt động tác chiến của bộ đội với nổi dậy của quần chúng."
+      - "Có sự ủng hộ về vật chất và tinh thần của các nước xã hội chủ nghĩa."
+      - "Làm thất bại các kế hoạch chiến tranh xâm lược của thực dân Pháp."
+    correct_answer: 3
+- MultipleChoices:
+    question_text: "Sau Chiến tranh lạnh, yếu tố nào sau đây thúc đẩy các nước điều chỉnh quan hệ theo hướng hòa hoãn, đối thoại, hợp tác là chủ yếu?"
+    options:
+      - "Công ty xuyên quốc gia có ảnh hưởng ngày càng lớn."
+      - "Tác động sâu sắc của vấn đề an ninh lương thực toàn cầu."
+      - "Nhu cầu ổn định chính trị để phát triển kinh tế."
+      - "Chủ nghĩa khủng bố đe dọa hòa bình thế giới."
+    correct_answer: 2
+- MultipleChoices:
+    question_text: "Nội dung nào sau đây phản ánh đúng tính chất dân chủ của Cách mạng tháng Tám năm 1945 ở Việt Nam?"
+    options:
+      - "Đóng góp vào sự nghiệp chung của các lực lượng tiến bộ trên thế giới."
+      - "Đóng góp vào cuộc đấu tranh chống phát xít của các nước xã hội chủ nghĩa."
+      - "Giải quyết thành công mọi mâu thuẫn giai cấp trong xã hội thuộc địa."
+      - "Lật đổ chế độ phong kiến và xóa bỏ được mọi tàn dư của chế độ cũ."
+    correct_answer: 3
+- MultipleChoices:
+    question_text: "Trước những thách thức hàng đầu đe doạ sự ổn định và phát triển của Cộng đồng ASEAN, các quốc gia thành viên cần có hành động nào sau đây?"
+    options:
+      - "Thúc đẩy chính sách cạnh tranh về kinh tế, bảo vệ người tiêu dùng."
+      - "Phát triển cơ sở hạ tầng cho các nước thành viên."
+      - "Hợp tác chặt chẽ giữa các quốc gia ASEAN và với các đối tác bên ngoài."
+      - "Bảo vệ quyền của các nhóm yếu thế trong xã hội."
+    correct_answer: 2
+- TrueFalse:
+    question_text: "Cho đoạn tư liệu sau đây: “Chúng ta kháng chiến, dân tộc bạn Miên, Lào cũng kháng chiến. Bọn thực dân Pháp và bọn can thiệp Mỹ là kẻ thù của ta và của dân tộc Miên, Lào. Vì vậy, ta phải ra sức giúp đỡ anh em Miên - Lào và tiến đến thành lập Mặt trận thống nhất các dân tộc Việt - Miên - Lào”.\n (Hồ Chí Minh, Toàn tập, tập 6, NXB Chính trị Quốc gia, Hà Nội, 1995, tr.174)"
+    statements:
+      - text: "Trong cuộc kháng chiến chống thực dân Pháp và can thiệp Mỹ, Việt Nam có trách nhiệm giúp đỡ Miên và Lào thành lập mặt trận dân tộc thống nhất."
+        correct_answer: true
+      - text: "Sự đoàn kết chiến đấu của ba dân tộc Đông Dương là nguyên nhân quyết định đưa đến thắng lợi của cuộc kháng chiến chống thực dân Pháp."
+        correct_answer: false
+      - text: "Trong xây dựng đất nước hiện nay, ba nước Đông Dương cần phải tăng cường đoàn kết và hợp tác toàn diện nhau."
+        correct_answer: true
+      - text: "Kẻ thù chung của nhân dân Việt, Miên, Lào là thực dân Pháp và can thiệp Mỹ."
+        correct_answer: true
+- TrueFalse:
+    question_text: "Cho đoạn tư liệu sau đây: “Việc Việt Nam gia nhập ASEAN có ý nghĩa vô cùng quan trọng không chỉ đối với Việt Nam, mà còn với toàn bộ khu vực Đông Nam Á, khởi đầu cho quá trình hoàn tất ý tưởng về một tổ chức bao gồm đầy đủ mười quốc gia thành viên, cùng phấn đấu xây dựng một khu vực hòa bình, ổn định và phát triển, để từ đó làm cơ sở cho những bước phát triển cao hơn của Hiệp hội sau này là xây dựng một Cộng đồng và đem lại những lợi ích thiết thực cho gần 700 triệu người dân trong khu vực”.\n (Vũ Hồ, Dấu ấn Việt Nam trong ASEAN: Đồng hành, lớn mạnh cùng năm tháng, Tạp chí Cộng sản điện tử, ISSN 2734-9071, ngày 23-10-2023)"
+    statements:
+      - text: "Việt Nam gia nhập ASEAN là sự khởi đầu hướng tới xây dựng một khu vực hòa bình, ổn định và phát triển thịnh vượng."
+        correct_answer: true
+      - text: "Đoạn tư liệu cung cấp thông tin về ý nghĩa của việc Việt Nam gia nhập ASEAN."
+        correct_answer: true
+      - text: "Khi gia nhập ASEAN, các nước trong khu vực có nhiều cơ hội để hợp tác, cùng phấn đấu xây dựng một khu vực hòa bình, ổn định và phát triển."
+        correct_answer: true
+      - text: "Việt Nam gia nhập ASEAN đánh dấu bước phát triển mới, đặt cơ sở cho quá trình giải quyết vấn đề xung đột ở Cam-pu-chia"
+        correct_answer: false
+- TrueFalse:
+    question_text: "Cho đoạn tư liệu sau đây: “Toàn cầu hoá mà trước hết và thực chất là toàn cầu hoá kinh tế đang trở thành một đặc trưng chủ yếu của sự phát triển thế giới. Xu thế toàn cầu hoá là xu thế khách quan, tất yếu, không thể đảo ngược được. Toàn cầu hoá mang lại nhiều cơ hội nhưng cũng hàm chứa không ít thách thức to lớn đối với các quốc gia. đặc biệt là các nước đang phát triển”.\n (Trần Thị Vinh (Chủ biên), Lê Văn Anh, Lịch sử thế giới hiện đại, quyền 2, NXB Đại học Sư phạm, Hà Nội, 2016, tr.98)"
+    statements:
+      - text: "Một trong những thách thức to lớn của xu thế toàn cầu hóa đối với các quốc gia, đặc biệt là các nước đang phát triển là làm trầm trọng thêm bất công xã hội."
+        correct_answer: true
+      - text: "Đoạn thông tin đề cập đến một trong những xu thế phát triển chính của thế giới sau Chiến tranh lạnh là xu thế toàn cầu hóa."
+        correct_answer: true
+      - text: "Toàn cầu hoá là một xu thế khách quan, một thực tế không thể đảo ngược vì đó là hệ quả của việc mở rộng quan hệ thương mại giữa các cường quốc."
+        correct_answer: false
+      - text: "Xu thế toàn cầu hóa đưa đến sự phát triển nhanh của lực lượng sản xuất đòi hỏi các quốc gia phải tăng cường quan hệ hợp tác quốc tế."
+        correct_answer: true
+- TrueFalse:
+    question_text: "Cho đoạn tư liệu sau đây: “Như vậy, chỉ trong vòng chưa đầy nửa tháng, với khí thế tiến công cách mạng, tinh thần yêu nước, sức mạnh đoàn kết toàn dân tộc của nhân dân ta, cuộc tổng khởi nghĩa vũ trang giành chính quyền đã diễn ra một cách nhanh gọn, ít đổ máu, dưới những hình thái phong phú, sinh động, giành được thắng lợi vẻ vang trên phạm vi toàn quốc”.\n (Tạ Thị Thúy (Chủ biên), Lịch sử Việt Nam, tập 9, từ năm 1930 đến năm 1945, NXB Khoa học xã hội, Hà Nội, 2017, tr.722)"
+    statements:
+      - text: "Một trong những nguyên nhân dẫn đến thắng lợi của Cách mạng tháng Tám năm 1945 ở Việt Nam là sức mạnh đoàn kết toàn dân tộc."
+        correct_answer: true
+      - text: "Cách mạng tháng Tám năm 1945 ở Việt Nam để lại bài học về chớp thời cơ, tiến hành cách mạng bạo lực bằng lực lượng chính trị và lực lượng vũ trang."
+        correct_answer: true
+      - text: "Bài học về chớp thời cơ của Cách mạng tháng Tám năm 1945 được vận dụng chủ yếu trong việc xây dựng và bảo vệ Tổ quốc hiện nay."
+        correct_answer: false
+      - text: "Cuộc tổng khởi nghĩa vũ trang giành chính quyền trong Cách mạng tháng Tám năm 1945 ở Việt Nam diễn ra một cách nhanh gọn, ít đổ máu, bằng phương pháp hòa bình."
+        correct_answer: false

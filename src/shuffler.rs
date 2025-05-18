@@ -1,7 +1,5 @@
-use rand::rng;
-use rand::seq::SliceRandom; // Dùng để xáo trộn Vec // Dùng để lấy bộ tạo số ngẫu nhiên mặc định
-
-use crate::questions::{MultipleChoicesQuestion, Question, TrueFalseQuestion}; // Đảm bảo import đúng các struct và enum
+use crate::questions::{MultipleChoicesQuestion, Question, TrueFalseQuestion};
+use rand::{rng, seq::SliceRandom};
 
 pub fn shuffle_questions(questions: &mut Vec<Question>) {
     let mut rang = rng(); // Lấy bộ tạo số ngẫu nhiên
@@ -10,7 +8,7 @@ pub fn shuffle_questions(questions: &mut Vec<Question>) {
 
 pub fn shuffle_multichoices_question(mc_q: &mut MultipleChoicesQuestion) {
     let mut rang = rng();
-    let correct_answer_text = mc_q.options[mc_q.correct_answer_index].clone();
+    let correct_answer_text = mc_q.options[mc_q.correct_answer].clone();
 
     // Xáo trộn các lựa chọn
     mc_q.options.shuffle(&mut rang);
@@ -21,9 +19,8 @@ pub fn shuffle_multichoices_question(mc_q: &mut MultipleChoicesQuestion) {
         .iter()
         .position(|opt| opt == &correct_answer_text)
     {
-        mc_q.correct_answer_index = new_index;
+        mc_q.correct_answer = new_index;
     } else {
-        // Nhưng xử lý lỗi nếu đáp án đúng không tìm thấy (ví dụ: do dữ liệu nguồn bị lỗi)
         eprintln!(
             "Error: Correct answer text not found after shuffling options for question: {}",
             mc_q.question_text
@@ -44,7 +41,6 @@ pub fn prepare_questions_for_quiz(questions: &mut Vec<Question>) {
 
     // 2. Duyệt qua từng câu hỏi và xáo trộn các lựa chọn/phát biểu bên trong
     for question in questions.iter_mut() {
-        // Dùng iter_mut() để có thể sửa đổi các phần tử
         match question {
             Question::MultipleChoices(mc_q) => {
                 shuffle_multichoices_question(mc_q);

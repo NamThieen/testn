@@ -1,9 +1,25 @@
 ---
 - MultipleChoices:
-    question_text: Nam nao dien ra chien thang dien bien phu?
+    question_text: Việt Nam đổi mới vào năm nào?
     options:
-      - "1945"
-      - "1948"
-      - "1954"
-      - "1960"
-    correct_answer_index: 2
+      - Năm 1985
+      - Năm 2000
+      - Năm 2001
+      - Năm 1991
+    correct_answer: 0
+    points: 1
+- TrueFalse:
+    question_text: "Đọc và trả lời vào năm 1995, Việt Nam gia nhập vào Hiệp hội các Quốc gia Đông Nam Á"
+    statements:
+      - text: Việt Nam gia nhập ASEan năm 1992
+        correct_answer: false
+        points: 1
+      - text: Việt Nam gia nhập ASEAN năm 1995
+        correct_answer: true
+        points: 1
+      - text: Campuchia gia nhập ASEAN năm 1995
+        correct_answer: false
+        points: 1
+      - text: Lào gia nhập ASEAN năm 1995
+        correct_answer: false
+        points: 1
