@@ -1,5 +1,4 @@
 use crate::questions::Question;
-use crate::shuffler::prepare_questions_for_quiz;
 use serde_yaml;
 use std::fs::File;
 use std::io::{self, BufReader, BufWriter};

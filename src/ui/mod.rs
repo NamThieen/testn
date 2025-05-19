@@ -3,7 +3,7 @@ pub mod main_menu;
 pub mod path_input;
 pub mod quizresults;
 pub mod taking_quiz;
-pub mod utils; //shared functions // for menu input
+pub mod utils;
 use crate::app::App;
 use ratatui::Frame;
 

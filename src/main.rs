@@ -121,9 +121,6 @@ fn run_app<B: Backend>(
                         KeyCode::Backspace => {
                             app.file_path_input.pop();
                         }
-                        KeyCode::Char('s') => {
-                            app.current_screen = CurrentScreen::TakingQuiz;
-                        }
                         KeyCode::Char(c) => {
                             app.file_path_input.push(c);
                         }
@@ -133,6 +130,9 @@ fn run_app<B: Backend>(
                         KeyCode::Char('1') => {
                             app.current_screen = CurrentScreen::TakingQuiz;
                             app.load_questions(get_sample_questions());
+                        }
+                        KeyCode::Char('s') => {
+                            app.current_screen = CurrentScreen::TakingQuiz;
                         }
                         KeyCode::Char('3') | KeyCode::Char('l') => {
                             app.current_input_mode = CurrentInputMode::FilePathInput;
